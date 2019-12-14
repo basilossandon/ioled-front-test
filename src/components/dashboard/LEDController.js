@@ -5,7 +5,6 @@ import Title from "./Title";
 import Grid from "@material-ui/core/Grid";
 import DateFnsUtils from "@date-io/date-fns";
 import Typography from "@material-ui/core/Typography";
-import Paper from "@material-ui/core/Paper";
 import {
   MuiPickersUtilsProvider,
   KeyboardTimePicker
