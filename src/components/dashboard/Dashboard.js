@@ -23,7 +23,7 @@ import Chart from './Chart';
 import ChartHumidity from './ChartHumidity';
 import Brightness6 from '@material-ui/icons/Brightness6';
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
-
+import LEDController from './LEDController'
 
 
 function Copyright() {
@@ -233,7 +233,7 @@ export default function Dashboard() {
             {/* Panel de requisitos */}
             <Grid item xs={12} md={8} lg={9}>
               <Paper className={fixedHeightPaper}>
-                <Chart />
+                <LEDController />
               </Paper>
             </Grid>
 
